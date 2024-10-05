@@ -1,0 +1,22 @@
+    <a href="#" 
+       onclick="funcao( 'parametro1' , 'parametro2' )"
+       class="fdt-icon"
+       data-toggle="modal" 
+       data-target="#modal_edit" 
+       data-tt="tooltip"   
+       title="Editar"
+       data-placement="top">
+       <i class="ti-pencil-alt fa-azul-real"></i>
+    </a>   
+
+    <script type="text/javascript">
+
+            $('[data-toggle="tooltip"]').tooltip({
+                 trigger : 'hover'
+            }) 
+
+            $('[data-tt="tooltip"]').tooltip({
+                 trigger : 'hover'
+            }) 
+
+     </script>  
